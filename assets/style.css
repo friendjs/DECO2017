@@ -28,6 +28,13 @@ a {
   color: light-dark(var(--light-accent), var(--dark-accent));
 }
 
+article img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 1.5rem auto;
+}
+
 span.tag {
   border: light-dark(var(--light-accent), var(--dark-accent)) 1px solid;
   border-radius: 0.5rem;
