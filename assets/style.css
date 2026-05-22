@@ -16,12 +16,15 @@ body {
   color: light-dark(var(--light-text), var(--dark-text));
   margin: 0;
   line-height: 1.6;
+  display: flex;
+  justify-content: center;
 }
 
 main {
-  max-width: var(--max-width);
-  margin: auto;
-  padding: 2rem;
+  box-sizing: border-box;
+  width: min(calc(100% - 2rem), var(--max-width));
+  margin: 0 auto;
+  padding: 2rem 0;
 }
 
 a {
